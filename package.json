@@ -4,8 +4,13 @@
   "description": "Svg badges displaying the number of coronavirus confirmed cases, recovered and deaths.",
   "main": "src/server.js",
   "scripts": {
-    "test": "jest"
-  },
+        "start": "NODE_ENV=production node ./src/server.js",
+        "dev": "NODE_ENV=development nodemon ./src/server.js",
+        "lint": "eslint .",
+        "test": "jest",
+        "test:watch": "jest --watchAll",
+        "lint:fix": "eslint --fix ."
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/egbakou/novelcovid-api-badges.git"

@@ -1,0 +1,24 @@
+{
+  "name": "novelcovid-api-badges",
+  "version": "1.0.0",
+  "description": "Svg badges displaying the number of coronavirus confirmed cases, recovered and deaths.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egbakou/novelcovid-api-badges.git"
+  },
+  "keywords": [
+    "covid-19-badges",
+    "covid19",
+    "svg-badges"
+  ],
+  "author": "Kodjo Laurent Egbakou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egbakou/novelcovid-api-badges/issues"
+  },
+  "homepage": "https://github.com/egbakou/novelcovid-api-badges#readme"
+}

@@ -5,7 +5,6 @@ const cookieParser = require("cookie-parser");
 const createError = require("http-errors");
 const express = require("express");
 const helmet = require("helmet");
-const logger = require("morgan");
 const NodeCache = require("node-cache");
 const md = require('markdown-it')();
 
@@ -14,7 +13,6 @@ const app = express();
 const cache = new NodeCache({stdTTL: 100, checkperiod: 120});
 
 app.use(helmet()); // https://expressjs.com/en/advanced/best-practice-security.html#use-helmet
-app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());

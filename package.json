@@ -4,13 +4,13 @@
   "description": "Svg badges displaying the number of coronavirus confirmed cases, recovered and deaths.",
   "main": "src/server.js",
   "scripts": {
-        "start": "NODE_ENV=production node ./src/server.js",
-        "dev": "NODE_ENV=development nodemon ./src/server.js",
-        "lint": "eslint .",
-        "test": "jest",
-        "test:watch": "jest --watchAll",
-        "lint:fix": "eslint --fix ."
-    },
+    "start": "NODE_ENV=production node ./src/server.js",
+    "dev": "NODE_ENV=development nodemon ./src/server.js",
+    "lint": "eslint .",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "lint:fix": "eslint --fix ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/egbakou/novelcovid-api-badges.git"
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/egbakou/novelcovid-api-badges#readme",
   "dependencies": {
+    "axios": "^0.18.1",
     "axios-cache-adapter": "^2.5.0",
     "badgen": "^3.1.0",
     "cookie-parser": "^1.4.5",
@@ -38,8 +39,7 @@
     "numeral": "^2.0.6"
   },
   "devDependencies": {
-    "axios": "^0.18.1",
-    "eslint": "^7.1.0",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.20.2",
@@ -48,12 +48,12 @@
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5"
   },
-    "jest": {
-        "testEnvironment": "node"
-    },
-    "nodemonConfig": {
-        "ignore": [
-            "*.test.js"
-        ]
-    }
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.test.js"
+    ]
+  }
 }

@@ -28,7 +28,6 @@
   "homepage": "https://github.com/egbakou/novelcovid-api-badges#readme",
   "dependencies": {
     "axios": "^0.18.1",
-    "axios-cache-adapter": "^2.5.0",
     "badgen": "^3.1.0",
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",

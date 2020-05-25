@@ -53,7 +53,7 @@ router.get(
     ["/recovered"],
     async (req, res) => {
         const {recovered} = await services.getGlobalData();
-        const label = req.query.long ? "covid-19 Recovered" : "recovered";
+        const label = req.query.long ? "covid-19 recovered" : "recovered";
         res.send(getBadge(label, "green", recovered));
     });
 
@@ -63,7 +63,7 @@ router.get(
     async (req, res) => {
         const {active} = await services.getGlobalData();
         const label = req.query.long ? "covid-19 actives" : "actives";
-        res.send(getBadge(label, "pink", recovered));
+        res.send(getBadge(label, "pink", active));
     });
 
 

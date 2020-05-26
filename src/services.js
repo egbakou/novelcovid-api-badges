@@ -8,13 +8,8 @@ const url = "https://disease.sh";
  */
 // eslint-disable-next-line consistent-return
 async function getGlobalData() {
-    try {
-        const { data } = await axios.get(`${url}/v2/all`);
-        console.log(data);
-        return data;
-    } catch (error) {
-        console.error(error);
-    }
+    const {data} = await axios.get(`${url}/v2/all`);
+    return data;
 }
 
 module.exports = {getGlobalData}

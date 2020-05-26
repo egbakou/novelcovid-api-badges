@@ -2,7 +2,7 @@ const services = require("../src/services");
 
 test('Test getGlobalData() method', async () => {
   const data = await services.getGlobalData();
-  await expect(data).not.toBeNull();
+  expect(data).not.toBeNull();
 });
 
 test('Test getGlobalData() cases property', async () => {

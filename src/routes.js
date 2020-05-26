@@ -24,9 +24,9 @@ const formatNumber = (num) => numeral(num).format('0,0');
  * @return {String} svg markup for the badge requested
  */
 const getBadge = (label, color, data) => badgen({
-    label: label,     // <Text>
+    label,     // <Text>
     status: formatNumber(data), // <Text>, required
-    color: color,    // <Color RGB> or <Color Name> (default: 'blue')
+    color,    // <Color RGB> or <Color Name> (default: 'blue')
     style: 'flat',    // 'flat' or 'classic' (default: 'classic')
     iconWidth: 13,    // Set this if icon is not square (default: 13)
 })
@@ -36,9 +36,9 @@ router.use(svgMiddleware)
 router.get(
     ["/confirmed"],
     async (req, res) => {
-        const {confirmed} = await services.getGlobalData();
+        const {cases} = await services.getGlobalData();
         const label = req.query.long ? "covid-19 cases" : "cases";
-        res.send(getBadge(label, "orange", confirmed));
+        res.send(getBadge(label, "orange", cases));
     });
 
 router.get(

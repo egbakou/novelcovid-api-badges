@@ -27,7 +27,7 @@ const getBadge = (label, color, data) => badgen({
     label,     // <Text>
     status: formatNumber(data), // <Text>, required
     color,    // <Color RGB> or <Color Name> (default: 'blue')
-    style: 'flat',    // 'flat' or 'classic' (default: 'classic')
+    style: 'classic',    // 'flat' or 'classic' (default: 'classic')
     iconWidth: 13,    // Set this if icon is not square (default: 13)
 })
 router.use(svgMiddleware)

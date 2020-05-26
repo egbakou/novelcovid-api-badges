@@ -9,11 +9,11 @@
 **usage:** `![Covid-19 Cases](https://novelcovid-api-badges.herokuapp.com/confirmed)`
 
 
-![Today Cases](https://novelcovid-api-badges.herokuapp.com/todaycases)
+![Today-Cases](https://novelcovid-api-badges.herokuapp.com/todaycases)
 
 **url:** `https://novelcovid-api-badges.herokuapp.com/todaycases`
 
-**usage:** `![Covid-19 Today Cases](https://novelcovid-api-badges.herokuapp.com/todaycases)`
+**usage:** `![Covid-19 Today-Cases](https://novelcovid-api-badges.herokuapp.com/todaycases)`
 
 
 ![Deaths](https://novelcovid-api-badges.herokuapp.com/deaths)
@@ -23,11 +23,11 @@
 **usage:** `![Covid-19 Deaths](https://novelcovid-api-badges.herokuapp.com/deaths)`
 
 
-![Today Deaths](https://novelcovid-api-badges.herokuapp.com/todaydeaths)
+![Today-Deaths](https://novelcovid-api-badges.herokuapp.com/todaydeaths)
 
 **url:** `https://novelcovid-api-badges.herokuapp.com/todaydeaths`
 
-**usage:** `![Covid-19 Deaths](https://novelcovid-api-badges.herokuapp.com/todaydeaths)`
+**usage:** `![Covid-19 Today-Deaths](https://novelcovid-api-badges.herokuapp.com/todaydeaths)`
 
 
 ![Recovered](https://novelcovid-api-badges.herokuapp.com/recovered)
@@ -45,9 +45,9 @@
 
 ## Long labels
 ![Cases](https://novelcovid-api-badges.herokuapp.com/confirmed?long=true)
-![Today Cases](https://novelcovid-api-badges.herokuapp.com/todaycases?long=true)
+![Today-Cases](https://novelcovid-api-badges.herokuapp.com/todaycases?long=true)
 ![Deaths](https://novelcovid-api-badges.herokuapp.com/deaths?long=true)
-![Today Deaths](https://novelcovid-api-badges.herokuapp.com/todaydeaths?long=true)
+![Today-Deaths](https://novelcovid-api-badges.herokuapp.com/todaydeaths?long=true)
 ![Recovered](https://novelcovid-api-badges.herokuapp.com/recovered?long=true)
 ![Actives](https://novelcovid-api-badges.herokuapp.com/actives?long=true)
 

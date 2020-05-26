@@ -54,17 +54,17 @@
 **url:** `...?long=true`
 
 ## Project
-[novelcovid-api-badges](https:/github.com/egbakou/novelcovid-api-badges) by [@egbakou](https:/github.com/egbakou/)
+[novelcovid-api-badges](https://github.com/egbakou/novelcovid-api-badges) by [@egbakou](https://github.com/egbakou/)
 
 ## Data Sources
 
-Data Repository of `COVID-19` cases by Johns Hopkins University [CSSEGISandData/COVID-19](https:/github.com/CSSEGISandData/COVID-19)
+Data Repository of `COVID-19` cases by Johns Hopkins University [CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
 
-![GitHub stars](https:/img.shields.io/github/stars/CSSEGISandData/COVID-19)
-![GitHub last commit](https:/img.shields.io/github/last-commit/CSSEGISandData/COVID-19)
+![GitHub stars](https://img.shields.io/github/stars/CSSEGISandData/COVID-19)
+![GitHub last commit](https://img.shields.io/github/last-commit/CSSEGISandData/COVID-19)
 
-`COVID-19` Rest API Tracker [NOVELCovid/API](https:/github.com/NOVELCovid/API)
+`COVID-19` Rest API Tracker [NOVELCovid/API](https://github.com/NOVELCovid/API)
 
-![GitHub stars](https:/img.shields.io/github/stars/NovelCOVID/API)
-![GitHub last commit](https:/img.shields.io/github/last-commit/ExpDev07/coronavirus-tracker-api)
+![GitHub stars](https://img.shields.io/github/stars/NovelCOVID/API)
+![GitHub last commit](https://img.shields.io/github/last-commit/ExpDev07/coronavirus-tracker-api)
 

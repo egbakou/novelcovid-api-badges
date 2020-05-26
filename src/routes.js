@@ -67,4 +67,21 @@ router.get(
     });
 
 
+router.get(
+    ["/todaycases"],
+    async (req, res) => {
+        const {todayCases} = await services.getGlobalData();
+        const label = req.query.long ? "covid-19 today cases" : "today-cases";
+        res.send(getBadge(label, "orange", todayCases));
+    });
+
+
+router.get(
+    ["/todaydeaths"],
+    async (req, res) => {
+        const {todayDeaths} = await services.getGlobalData();
+        const label = req.query.long ? "covid-19 today deaths" : "today-deaths";
+        res.send(getBadge(label, "red", todayDeaths));
+    });
+
 module.exports = router;

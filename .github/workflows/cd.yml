@@ -24,6 +24,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
@@ -38,11 +40,9 @@ jobs:
       run: npm run build --if-present
   
     
-    - name: Add remote origin
-      run: git remote add heroku https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/${{ secrets.HEROKU_APP_NAME }}.git
-      
-    - name: Unshallow cloned repository
-      run: git fetch --all --unshallow
-      
-    - name: Deploy to heroku
-      run: git push heroku HEAD:refs/heads/master
+    - name: Deploy to Heroku
+      env:
+        HEROKU_API_TOKEN: ${{ secrets.HEROKU_API_TOKEN }}
+        HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
+      if: github.ref == 'refs/heads/master' && job.status == 'success'
+      run: git push https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git origin/master:master

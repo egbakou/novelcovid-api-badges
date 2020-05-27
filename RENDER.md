@@ -1,55 +1,55 @@
-# COVID-19 Global Data Badges
-![Cases](http://localhost:3000/confirmed) ![Today Cases](http://localhost:3000/todaycases) ![Deaths](http://localhost:3000/deaths) ![Today Deaths](http://localhost:3000/todaydeaths) ![Recovered](http://localhost:3000/recovered) ![Actives](http://localhost:3000/actives)
+# Coronavirus Global Data Badges
+![Cases](https://novelcovid-api-badges.herokuapp.com/confirmed) ![Today Cases](https://novelcovid-api-badges.herokuapp.com/todaycases) ![Deaths](https://novelcovid-api-badges.herokuapp.com/deaths) ![Today Deaths](https://novelcovid-api-badges.herokuapp.com/todaydeaths) ![Recovered](https://novelcovid-api-badges.herokuapp.com/recovered) ![Actives](https://novelcovid-api-badges.herokuapp.com/actives)
 
 ## Usage
-![Cases](http://localhost:3000/confirmed)
+![Cases](https://novelcovid-api-badges.herokuapp.com/confirmed)
 
-**url:** `http://localhost:3000/confirmed`
+**url:** `https://novelcovid-api-badges.herokuapp.com/confirmed`
 
-**usage:** `![Covid-19 Cases](http://localhost:3000/confirmed)`
-
-
-![Today-Cases](http://localhost:3000/todaycases)
-
-**url:** `http://localhost:3000/todaycases`
-
-**usage:** `![Covid-19 Today-Cases](http://localhost:3000/todaycases)`
+**usage:** `![Covid-19 Cases](https://novelcovid-api-badges.herokuapp.com/confirmed)`
 
 
-![Deaths](http://localhost:3000/deaths)
+![Today-Cases](https://novelcovid-api-badges.herokuapp.com/todaycases)
 
-**url:** `http://localhost:3000/deaths`
+**url:** `https://novelcovid-api-badges.herokuapp.com/todaycases`
 
-**usage:** `![Covid-19 Deaths](http://localhost:3000/deaths)`
-
-
-![Today-Deaths](http://localhost:3000/todaydeaths)
-
-**url:** `http://localhost:3000/todaydeaths`
-
-**usage:** `![Covid-19 Today-Deaths](http://localhost:3000/todaydeaths)`
+**usage:** `![Covid-19 Today-Cases](https://novelcovid-api-badges.herokuapp.com/todaycases)`
 
 
-![Recovered](http://localhost:3000/recovered)
+![Deaths](https://novelcovid-api-badges.herokuapp.com/deaths)
 
-**url:** `http://localhost:3000/recovered`
+**url:** `https://novelcovid-api-badges.herokuapp.com/deaths`
 
-**usage:** `![Covid-19 Recovered](http://localhost:3000/recovered/)`
+**usage:** `![Covid-19 Deaths](https://novelcovid-api-badges.herokuapp.com/deaths)`
 
-![Actives](http://localhost:3000/actives)
 
-**url:** `http://localhost:3000/actives`
+![Today-Deaths](https://novelcovid-api-badges.herokuapp.com/todaydeaths)
 
-**usage:** `![Covid-19 Actives](http://localhost:3000/actives/)`
+**url:** `https://novelcovid-api-badges.herokuapp.com/todaydeaths`
+
+**usage:** `![Covid-19 Today-Deaths](https://novelcovid-api-badges.herokuapp.com/todaydeaths)`
+
+
+![Recovered](https://novelcovid-api-badges.herokuapp.com/recovered)
+
+**url:** `https://novelcovid-api-badges.herokuapp.com/recovered`
+
+**usage:** `![Covid-19 Recovered](https://novelcovid-api-badges.herokuapp.com/recovered/)`
+
+![Actives](https://novelcovid-api-badges.herokuapp.com/actives)
+
+**url:** `https://novelcovid-api-badges.herokuapp.com/actives`
+
+**usage:** `![Covid-19 Actives](https://novelcovid-api-badges.herokuapp.com/actives/)`
 
 
 ## Long labels
-![Cases](http://localhost:3000/confirmed?long=true)
-![Today-Cases](http://localhost:3000/todaycases?long=true)
-![Deaths](http://localhost:3000/deaths?long=true)
-![Today-Deaths](http://localhost:3000/todaydeaths?long=true)
-![Recovered](http://localhost:3000/recovered?long=true)
-![Actives](http://localhost:3000/actives?long=true)
+![Cases](https://novelcovid-api-badges.herokuapp.com/confirmed?long=true)
+![Today-Cases](https://novelcovid-api-badges.herokuapp.com/todaycases?long=true)
+![Deaths](https://novelcovid-api-badges.herokuapp.com/deaths?long=true)
+![Today-Deaths](https://novelcovid-api-badges.herokuapp.com/todaydeaths?long=true)
+![Recovered](https://novelcovid-api-badges.herokuapp.com/recovered?long=true)
+![Actives](https://novelcovid-api-badges.herokuapp.com/actives?long=true)
 
 **url:** `...?long=true`
 

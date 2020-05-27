@@ -1,6 +1,6 @@
 {
   "name": "novelcovid-api-badges",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "Svg badges displaying the number of coronavirus confirmed cases, recovered and deaths.",
   "main": "src/server.js",
   "scripts": {

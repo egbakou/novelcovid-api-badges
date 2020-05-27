@@ -66,5 +66,5 @@ Data Repository of `COVID-19` cases by Johns Hopkins University [CSSEGISandData/
 `COVID-19` Rest API Tracker [NOVELCovid/API](https://github.com/NOVELCovid/API)
 
 ![GitHub stars](https://img.shields.io/github/stars/NovelCOVID/API)
-![GitHub last commit](https://img.shields.io/github/last-commit/ExpDev07/coronavirus-tracker-api)
+![GitHub last commit](https://img.shields.io/github/last-commit/NovelCOVID/API)
 

@@ -11,6 +11,9 @@
     "test:watch": "jest --watchAll",
     "lint:fix": "eslint --fix ."
   },
+  "engines": {
+    "node": "12.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/egbakou/novelcovid-api-badges.git"

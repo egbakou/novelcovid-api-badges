@@ -36,7 +36,7 @@
     "express": "^4.17.1",
     "helmet": "^3.22.0",
     "http-errors": "^1.7.3",
-    "markdown-it": "^11.0.0",
+    "markdown-it": "^12.3.2",
     "numeral": "^2.0.6"
   },
   "devDependencies": {

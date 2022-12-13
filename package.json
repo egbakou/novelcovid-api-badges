@@ -33,7 +33,7 @@
     "axios": "^0.21.1",
     "badgen": "^3.1.0",
     "cookie-parser": "^1.4.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "helmet": "^3.22.0",
     "http-errors": "^1.7.3",
     "markdown-it": "^11.0.0",
